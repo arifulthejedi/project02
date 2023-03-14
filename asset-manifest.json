@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f33638c.css",
+    "main.js": "/static/js/main.147ab51d.js",
+    "static/media/thunder.gif": "/static/media/thunder.a661f52ee78d10471fb4.gif",
+    "static/media/modal-back.jpg": "/static/media/modal-back.dada6df4f1394216b016.jpg",
+    "static/media/bangers.ttf": "/static/media/bangers.5e9818443fb4ac2bdec0.ttf",
+    "index.html": "/index.html",
+    "main.9f33638c.css.map": "/static/css/main.9f33638c.css.map",
+    "main.147ab51d.js.map": "/static/js/main.147ab51d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f33638c.css",
+    "static/js/main.147ab51d.js"
+  ]
+}

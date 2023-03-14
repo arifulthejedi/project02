@@ -1,0 +1,175 @@
+
+/* font and body */
+@font-face {
+  font-family: bangers;
+  src: url("./media/bangers/bangers.ttf");
+}
+
+ /*bootstrap icons*/
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+
+
+body{
+  font-family: bangers,sans-serif;
+  letter-spacing: 2px;
+
+}
+
+/*root*/
+
+#main-container{
+  background-color: #fe9900;  
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* header */
+/* #item-container nav{
+  background-color: #283959 !important;
+  color: white;
+} */
+
+
+/* style  for start card */
+.card {
+  color:#fbfbfc;
+  min-width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  /* background-image: url("./media/card.jpg"); */
+  background-image: url("./media/thunder.gif");
+  background-size: cover; 
+  background-position: center left; 
+  border: none !important;
+  border-radius: 10px;
+} 
+
+.card-heading{
+  color:#ec1d23;
+}
+
+
+
+.overlay{
+  border-radius: 10px;
+  background-color: rgba(26, 25, 25, 0.5);
+  cursor: pointer;
+}
+
+
+.card-container{
+  margin: 20px;
+}
+
+.card-btn{
+  background-color: tomato !important;
+}
+
+.card-btn:hover{
+   background-color: rgb(206, 85, 63) !important;
+}
+
+
+
+
+
+/* style field component */
+#grid-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+}
+
+
+
+#grid-container{
+  border: 1px solid black;
+  max-width: 40%;
+  min-width: 250px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+
+
+.child{
+  background-color: tomato;
+  min-height: 40px;
+  margin: 5px;
+  border-radius: 10%;
+}
+
+
+/* style for popup modal */
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+#section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section2 {
+  margin-left: 10px;
+  padding: 2px;
+
+}
+
+.modal-header {
+  border: none !important;
+}
+
+.modal-content{
+  color: white;
+  background-image: url("./media/modal-back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none !important;
+}
+
+#popup-btn {
+  background-color: #ec1d23;
+}
+
+#popup-btn:hover {
+  background-color: #ad262a;
+}
+
+#score-popup ol li{
+  color:#357ffd;
+}
+
+#score-popup ol li::before{
+  color:black;
+}
+
+
+
+/* count down overlay */
+.count-down-cover{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-down{
+    opacity: 1;
+    transition: opacity 0.6s ease-out;
+    text-align: center;
+    color:#357ffd;
+}
+
