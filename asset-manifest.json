@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/project02/static/css/main.6bec7fa7.css",
+    "main.js": "/project02/static/js/main.0a217954.js",
+    "static/media/spiderman.gif": "/project02/static/media/spiderman.f4a1b86188608f9cf955.gif",
+    "static/media/quicksilver.gif": "/project02/static/media/quicksilver.6f9efd27953ee87c0767.gif",
+    "static/media/thunder.gif": "/project02/static/media/thunder.6bde2047064b7394ab5b.gif",
+    "static/media/superhuman.gif": "/project02/static/media/superhuman.069b994e9d0ede8f0fec.gif",
+    "static/media/human.gif": "/project02/static/media/human.9129411b0ff2acdb268b.gif",
+    "static/media/uncle-grandpa.gif": "/project02/static/media/uncle-grandpa.1d8068dfa4553ffa78b2.gif",
+    "static/media/batman.gif": "/project02/static/media/batman.0eaaea59e148a0fe73bc.gif",
+    "static/media/turtle.gif": "/project02/static/media/turtle.6565fd6436bdc3aba2be.gif",
+    "static/media/flash.gif": "/project02/static/media/flash.4dcb7f1e9e7ad7923b73.gif",
+    "static/media/superman.gif": "/project02/static/media/superman.c8a86fd91fbdfe561a73.gif",
+    "static/media/modal-back.jpg": "/project02/static/media/modal-back.dada6df4f1394216b016.jpg",
+    "static/media/bangers.ttf": "/project02/static/media/bangers.5e9818443fb4ac2bdec0.ttf",
+    "index.html": "/project02/index.html",
+    "main.6bec7fa7.css.map": "/project02/static/css/main.6bec7fa7.css.map",
+    "main.0a217954.js.map": "/project02/static/js/main.0a217954.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bec7fa7.css",
+    "static/js/main.0a217954.js"
+  ]
+}
